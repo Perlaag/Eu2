@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--fondo);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.imagen {
+    width: 250px;
+    height: 150px;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.contenedor {
+    width: 90%;
+    margin: auto;
+}
+
+.logotipo {
+    width: 100px;
+    height: 50px;
+    margin-top: 50px;
+}
+
+nav a {
+    color: #AAA;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+nav a:hover,
+nav a.activo {
+    color: #FFF;
+}
+
+:root {
+    --rojo: #E50914;
+    --fondo: #141414;
+}
+
+.section {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titul {
+    font-size: 30px;
+    margin-top: 20px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+}
+
+input {
+    width: 500px;
+    padding: 10px;
+    outline: none;
+    border: 5px solid #000;
+    font-weight: 600;
+}
+
+#listapeliculas {
+    font-size: 30px;
+    margin-top: 20px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+}
+
+.filtro {
+    display: none;
+}
